@@ -4,7 +4,7 @@ Repository ini berisi catatan materi, latihan coding, dan project dari berbagai 
 
 ## 🚀 Daftar Materi
 
-| Materi | Platform  | Status |
+| Materi | Kelompok Topik | Status |
 |--------|-----------|--------|
 | Materi 1 | ABC | 🚀 Selesai |
 | Materi 2 | ABC | 🛠️ On Progress |
@@ -16,7 +16,7 @@ Repository ini berisi catatan materi, latihan coding, dan project dari berbagai 
 .
 ├── README.md
 │
-├── <nama-platform>/
+├── <kelompok-topik>/
 │   ├── <judul-course>/
 │   │   ├── notes.md
 │   │   ├── exercises/
