@@ -1,10 +1,8 @@
 # 📖 Catatan Course: Fundamentals of Probability
 
-## 📌 Ringkasan Materi
+## 📌 Isi Materi
 
-Tuliskan ringkasan materi penting di sini.
-
-Contoh:
+Course ini mencakup materi berikut:
 - Topik 1: Pengantar Python
 - Topik 2: Struktur Data
 - Topik 3: Visualisasi Data
@@ -27,13 +25,22 @@ Contoh:
 
 ---
 
-## 💻 Contoh Kode
+## Coretan
 
-Tuliskan snippet kode yang relevan di sini:
+**Permutasi** adalah cara penyusunan suatu kumpulan objek dengan urutan pemilihan yang diperhatikan.
 
-```python
-def hitung_mean(data):
-    return sum(data) / len(data)
+$$
+P(n, r) = \frac{n!}{(n - r)!}
+$$
 
-data = [10, 20, 30]
-print(hitung_mean(data))
+dengan $n$ adalah banyaknya elemen dan $r$ adalah banyaknya elemen yang diambil.
+
+**Kombinasi** adalah cara penyusunan suatu kumpulan objek tanpa memperhatikan urutan pemilihan.
+
+$$
+C(n, r) = \frac{n!}{r!(n - r)!}
+$$
+
+dengan $n$ adalah banyaknya elemen dan $r$ adalah banyaknya elemen yang diambil.
+
+Di Python, kita bisa menggunakan modul `itertools` yang memiliki function `permutations()` dan `combinations()`.
