@@ -83,3 +83,64 @@ $$
 P(A|D) = \frac{P(A \cap D)}{P(D)} = \frac{0.78}{0.83} = 0.94
 $$
 
+---
+
+Law of Total Probability. Jika terdapat $i$ kejadian yang saling disjoint, maka probabilitas suatu kejadian $A$ dapat didefinisikan sebagai berikut.
+
+$$
+P(A) = \sum_{i} P(B_i)P(A|B_i)
+$$
+
+Bayes' Rule describes the probability of an event, based on prior knowledge of conditions that might be related to the event. With this rule, we can update our belief to a particular event given an evidence has occurred.
+
+$$
+P(A|B) = \frac{P(A)P(B|A)}{P(B)}
+$$
+
+---
+
+Dua kejadian dikatakan independen apabila tidak saling mempengaruhi.
+
+$$
+P(A \cap B) = P(A) P(B)
+$$
+
+Pada event disjoint:
+
+$$
+P(A \cap B) = 0
+$$
+
+Sebanyak $n$ event dikatakan saling independen jika:
+
+$$
+P(A_1 \cap A_2 \cap ... \cap A_n) = P(A_1)P(A_2)...P(A_n)
+$$
+
+Kumpulan kejadian dapat independen secara berpasangan, namun secara umum tidak independen.
+
+---
+
+Variabel Random adalah suatu fungsi untuk memetakan kejadian pada ruang sampel dalam bilangan real.
+
+$$
+X : \Omega \rightarrow \mathbb{R}
+$$
+
+Dalam penulisannya, Variabel Random mempunyai 2 komponen:
+1. Nama (ditulis dalam huruf kapital)
+2. Nilai (ditulis dalam huruf kecil)
+
+$$
+X = \{x_1, x_2, ...\}
+$$
+
+
+Probabilitas dari suatu nilai dalam variabel random dinamakan Probability Mass Function (PMF).
+
+$$
+p_x(x) = P(X = x)
+$$
+
+Secara formal, PMF adalah fungsi yang menghitung probabilitas nilai dari Variabel Random Diskrit. Nilai PMF dapat dicari dengan menghitung probabilitas nilai dalam variabel random. Dikarenakan PMF adalah probabilitas, maka PMF juga memenuhi Axioms of Probability.
+
