@@ -144,3 +144,38 @@ $$
 
 Secara formal, PMF adalah fungsi yang menghitung probabilitas nilai dari Variabel Random Diskrit. Nilai PMF dapat dicari dengan menghitung probabilitas nilai dalam variabel random. Dikarenakan PMF adalah probabilitas, maka PMF juga memenuhi Axioms of Probability.
 
+Variabel Random Bernoulli adalah variabel random yang hanya memetakan kejadian yang independen pada 2 nilai dengan probabilitas suksesnya $p$.
+
+$$
+X =
+\begin{cases}
+1 \\
+0
+\end{cases}
+$$
+
+Variabel random yang berdistribusi Bernoulli mempunyai parameter peluang sukses $p$ dinotasikan sebagai $X \sim Bernoulli(p)$.
+
+$$
+p_x(x) =
+\begin{cases}
+p, & \text{for } x = 1 \\
+1 - p, & \text{for } x = 0 \\
+0, & \text{otherwise}
+\end{cases}
+$$
+
+
+Variabel Random yang memiliki nilai PMF yang sama pada setiap nilai $x$ disebut dengan Variabel Random Diskrit Uniform $X \sim Uniform$.
+
+$$
+p_x(x) = \frac{1}{n}
+$$
+
+
+Variabel Random Binomial adalah variabel random yang menyatakan banyaknya kejadian sukses dari $n$ percobaan. $X \sim Bin(n, p)$.
+
+$$
+p_x(x) = \binom{n}{x} p^x (1 - p)^{n - x}, \quad x = 0, 1, 2, \ldots, n
+$$
+
