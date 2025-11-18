@@ -1,14 +1,3 @@
-# User-defined
-.results/
-.artifacts/
-data.pkl
-model/
-notebooks/archive/
-notebooks/00_banksaqu.ipynb
-notebooks/
-credentials/
-data/
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
